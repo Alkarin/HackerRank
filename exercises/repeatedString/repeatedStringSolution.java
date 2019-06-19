@@ -1,5 +1,5 @@
-public class repeatedStringSolution {
-    public static long repeatedString(String s, long n) {
+class repeatedStringSolution {
+    static long repeatedString(String s, long n) {
         // occurances in single string
         long occurances = 0;
         // total a's found
