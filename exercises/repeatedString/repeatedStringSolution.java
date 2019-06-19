@@ -6,9 +6,9 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class Solution {
+public class repeatedStringSolution {
     // Complete the repeatedString function below.
-    static long repeatedString(String s, long n) {
+    public static long repeatedString(String s, long n) {
         long occurances = 0;
         // total a's found
         long totalCount = 0;
@@ -38,6 +38,8 @@ public class Solution {
         System.out.println(divisor);
 
         return totalCount;
+    }
 
+    public static void main(String[] args) {
     }
 }
