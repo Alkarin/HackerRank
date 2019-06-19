@@ -1,6 +1,6 @@
 public class repeatedStringSolution {
-    // Complete the repeatedString function below.
     public static long repeatedString(String s, long n) {
+        // occurances in single string
         long occurances = 0;
         // total a's found
         long totalCount = 0;
