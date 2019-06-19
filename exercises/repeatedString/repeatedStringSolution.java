@@ -1,11 +1,3 @@
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
-
 public class repeatedStringSolution {
     // Complete the repeatedString function below.
     public static long repeatedString(String s, long n) {
@@ -34,12 +26,6 @@ public class repeatedStringSolution {
                 totalCount++;
             }
         }
-
-        System.out.println(divisor);
-
         return totalCount;
-    }
-
-    public static void main(String[] args) {
     }
 }
