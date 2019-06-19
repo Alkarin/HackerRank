@@ -1,7 +1,10 @@
+// https://www.hackerrank.com/challenges/repeated-string/problem
 class repeatedStringSolution {
+    public static void main(String[] args) {}
+
     static long repeatedString(String s, long n) {
-        // occurances in single string
-        long occurances = 0;
+        // occurrences in single string
+        long occurrences = 0;
         // total a's found
         long totalCount = 0;
         // Determines how many substrings we need to check
@@ -12,16 +15,16 @@ class repeatedStringSolution {
         // find amount of a's in first instance of the string
         for (int i = 0; i < s.length(); i ++) {
             if(s.charAt(i) == 'a') {
-                occurances++;
+                occurrences++;
             }
         }
 
         // adds all substrings for each repeated string
         // does not include the last potentially partial string
-        totalCount += (divisor * occurances);
+        totalCount += (divisor * occurrences);
 
         // Add a's from last remaining string
-        for (int i =0; i < remainder; i++) {
+        for (int i = 0; i < remainder; i++) {
             if (s.charAt(i) == 'a') {
                 totalCount++;
             }
